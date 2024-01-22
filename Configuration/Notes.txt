@@ -1,0 +1,34 @@
+﻿
+//test
+//foreach (Microsoft.Extensions.Configuration.ConfigurationSection item in configuration.GetChildren())
+//{
+//    Console.WriteLine($"{item.Key}:{item.Value}");
+
+//    foreach (Microsoft.Extensions.Configuration.ConfigurationSection item2 in item.GetChildren())
+//    {
+//        Console.WriteLine($"{item2.Key}:{item2.Value}");
+
+//        foreach (Microsoft.Extensions.Configuration.ConfigurationSection item3 in item2.GetChildren())
+//        {
+//            Console.WriteLine($"{item3.Key}:{item3.Value}");
+//            foreach (Microsoft.Extensions.Configuration.ConfigurationSection item4 in item3.GetChildren())
+//            {
+//                Console.WriteLine($"{item4.Key}:{item4.Value}");
+//            }
+//        }
+
+//    }
+//}
+
+
+//https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started
+
+//https://dotnetcoretutorials.com/reading-and-writing-yaml-in-c-net/
+  
+      //.AddYamlFile("_config.yml");
+      //builder.AddYamlFile("config.yaml", optional: false);
+
+//Install - Package Nemi.Extensions.Configuration.Yaml
+//.NET CLI
+
+//dotnet add package Nemi.Extensions.Configuration.Yaml
